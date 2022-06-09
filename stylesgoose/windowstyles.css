@@ -1,0 +1,183 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #f7f7f7;
+    margin: 0;
+    
+}
+
+/*Main zone*/
+
+
+.main_zone {
+    width: 1400px;
+    height: 800px;
+    margin: 0px auto;
+    background: rgba(0, 0, 0, 0.7);
+}
+/*White square*/
+
+.white_square {
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    margin-top: 130px;
+    margin-left: 400px;
+    background: white;
+}
+
+/*TOP SIDE*/
+.close_x {
+    width: 25px;
+    height: 25px;
+}
+
+.icon_X {
+    width: 24px;
+    height: 24px;
+    color: black;
+    padding-top: 25px;
+    padding-left: 540px;
+}
+
+
+.top_text {
+    width: 400px;
+    height: 150px;
+    padding: 0 95px 0 95px;
+}
+
+.middle_icon {
+    width: 75px;
+    height: 75px;
+    padding-left: 163px;
+}
+
+.main_text {
+    width: 400px;
+    height: 25px;
+    top: 120px;
+    left: 100px;
+    text-align: center;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: black;
+}
+
+
+.main_text_description {
+    width: 302px;
+    height: 25px;
+    padding-top: 12px;
+    padding-left: 50px;
+    text-align: center;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+}
+
+/*CENTER SIDE*/
+
+.type_boxes {
+    padding: 200px 100px 0 100px;
+    width: 380px;
+    height: 200px;
+}
+
+.b {
+    width: 400;
+    height: 80px;
+    padding: 24px 100px 0 100px;
+}
+
+.name {
+    position: absolute;
+    width: 35px;
+    height: 25px;
+    top: 220px;
+    left: 100px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: black;
+}
+
+.name_box {
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    box-sizing: border-box;
+    width: 400px;
+    height: 50px;
+    background: #ffffff;
+    border: 1px solid #005bbb;
+    border-radius: 8px;
+}
+
+
+.email {
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    top: 320px;
+    left: 100px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: black;
+}
+
+.email_box {
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    box-sizing: border-box;
+    width: 400px;
+    height: 50px;
+    background: #ffffff;
+    border: 1px solid #005bbb;
+    border-radius: 8px;
+}
+
+
+/*BOTTOM SIDE*/
+
+.button {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    margin-lft: 190px;
+    margin-bttom: 60px;
+
+    background: #ff6b0a;
+    border-radius: 8px;
+}
+
+
+.button_name {
+    position: absolute;
+    width: 200px;
+    height: 15px;
+    padding-top: auto;
+    padding-left: 1px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 24px;
+    color: #FFFFFF;
+}

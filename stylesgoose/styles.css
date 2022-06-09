@@ -1,0 +1,437 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #ff0000;
+    margin: 0;
+} 
+
+
+/*main style*/
+
+.main {
+    margin: 0px auto;
+    width: 1400px;
+    height: 2100px;
+    background: #03eeff;
+   /* background: linear-gradient(270deg, #000000 0%, #FCFEFF 100%); */
+}
+
+
+/* TOP SIDE */
+
+
+.top_side {
+    position: absolute;
+    width: 1400px;
+    height: 720px;
+    left: 0px;
+    top: 0px;  /*біла посолка зверху сторінки*/
+    background: linear-gradient(270deg, #000000 0%, #FCFEFF 100%);
+}
+
+
+.logo_photo {
+    position: absolute;
+    width: auto;
+    height: 120px;
+    left: 100px;
+}
+
+.logo_text {
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    left: 215px;
+    top: 20px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 17px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;    
+    color: #010101;
+}
+
+.white_square {
+
+    position: absolute;
+    height: 500px;
+    width: 600px;
+    left: 100px;
+    top: 120px;
+    background: #ffffff;
+}
+
+
+.good_evening {
+    position: absolute;
+    width: 290px;
+    height: 24px;
+    top: 50px;
+    left: 55px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    
+    color: black;
+
+
+}
+
+.good_todo {
+    position: absolute;
+    width: 350px;
+    height: 24px;
+    top: 100px;
+    left: 55px;
+
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #ff6b0a;
+
+}
+
+.name {
+    position: absolute;
+    width: 500px;
+    height: 75px;
+    top: 150px;
+    left: 55px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 75px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.name_description {
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    top: 270px;
+    left: 55px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+    }
+
+.button {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    top: 540px;
+    left: 200px;
+
+    background: #ff6b0a;
+    border-radius: 8px;
+}
+
+
+.button_name {
+    position: absolute;
+    width: 200px;
+    height: 15px;
+    top: 12px;
+    left: 30px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+
+.main_photo {
+    position: absolute;
+    top: px;
+    left: 800px;
+}
+
+
+
+.goose_background {
+    position: absolute;
+    width: 600.25px;
+    height: 670px;
+    left: 760px;
+    top: 15px;
+    
+    background: #b1ff4a42;
+    border-radius: 150px;
+    transform: rotate(-176.81deg);
+    
+}
+
+/* Center SIDE */
+
+.middle_icon {
+    position: absolute;
+    width: 100px;
+    height: auto;
+    top: 780px;
+    left: 660px;
+}
+
+.interesting_fact_name {
+    position: absolute;
+    width: 900px;
+    height: 100px;
+    top: 840px;
+    left: 276px;
+
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100px;
+    color: black;
+}
+
+.if_description {
+    position: absolute;
+    width: 950px;
+    height: 75px;
+    top: 950px;
+    left: 250px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: black;
+
+}
+
+/*central panels*/
+
+
+.left_panel {
+    position: absolute;
+    width: 380px;
+    height: 550px;
+    top: 1050px;
+    left: 100px;
+}
+
+.left_panel_photo {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+
+}
+
+.left_panel_title {
+    position: absolute;
+    width: 300px;
+    height: 24px;
+    top: 350px;
+    left: 50px;
+
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: black;
+
+}
+
+
+.left_panel_text {
+    position: absolute;
+    width: 350px;
+    height: 24px;
+    top: 400px;
+    left: 50px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+
+.middle_panel {
+    position: absolute;
+    width: 380px;
+    height: 550px;
+    top: 1050px;
+    left: 500px;
+
+}
+
+
+
+
+
+.middle_panel_photo {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+
+}
+
+.middle_panel_title {
+    position: absolute;
+    width: 300px;
+    height: 24px;
+    top: 350px;
+    left: 50px;
+    
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: black;
+
+}
+
+
+.middle_panel_text {
+    position: absolute;
+    width: 350px;
+    height: 24px;
+    top: 400px;
+    left: 50px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+
+
+.right_panel {
+    position: absolute;
+    width: 380px;
+    height: 550px;
+    top: 1050px;
+    left: 900px;
+
+}
+
+.right_panel_photo {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+
+}
+.right_panel_title {
+    position: absolute;
+    width: 300px;
+    height: 24px;
+    top: 350px;
+    left: 50px;
+    
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: black;
+
+}
+
+.right_panel_text {
+    position: absolute;
+    width: 350px;
+    height: 24px;
+    top: 400px;
+    left: 50px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.bottom_side {
+    position: absolute;
+    width: 1200px;
+    height: 400px;
+    left: 100px;
+    top: 1650px;
+    /*біла посолка зверху сторінки*/
+    background: linear-gradient(270deg, #000000 0%, #FCFEFF 100%);
+
+}
+
+
+
+.bottom_middle_icon {
+    position: absolute;
+    width: 100px;
+    height: auto;
+    top: 1700px;
+    left: 650px;
+}
+
+.bottom_side_text {
+    position: absolute;
+    width: 800px;
+    height: 100px;
+    left: 250px;
+    bottom: 150px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100px;
+    color: black;
+
+}
+
+.bottom_side_description {
+    position: absolute;
+    width: 900px;
+    height: 50px;
+    left: 150px;
+    bottom: 100px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: black;
+
+}
+
+
+
+/*< !--Center side--><div><h1>Цікаві факти про бандерогусей</h1><p>Зазвичай бандерогуси — виключно мирні птахи. Але у разі небезпеки можуть атакувати ворога системою надпотужного озброєння. Також нищать психологічно,
+активуючи високочастотне шипіння та розмахування крилами</p>< !--left bar--><div><img src=""alt=""><h3>Система навігації</h3><p>Супутниковий GPS та ехолокатори розпізнають ворожу техніку навіть на етапі збірки</p></div>< !--middle bar--><div><img src=""alt=""><h3>Очі-тепловізори</h3><p>Допомагають виявити характер сигнатури об’єктів та значно підвищують точність удару</p></div>< !--right bar--><div><img src=""alt=""><h3>Байракрила</h3><p>Можуть нести 2-4 керовані ракети,
+що вражають ціль на відстані «ніхріна собі» кілометрів</p></div></div>< !--Down side--><div><h1>Перемога завжди за нами !</h1><p>Головна мета бандерогусей — служити гумору та доброті нашого народу. Ми забезпечимо вашу посмішку у часи,
+коли вона так необхідна</p></div></div>*/
