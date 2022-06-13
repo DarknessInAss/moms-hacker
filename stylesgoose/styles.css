@@ -12,7 +12,6 @@ body {
 
 .main {
     width: 1400px;
-    height: 2100px;
     margin: auto;
     /* background: #03eeff; */
    /* background: linear-gradient(270deg, #000000 0%, #FCFEFF 100%); */
@@ -23,10 +22,10 @@ body {
 
 .header {
     position: absolute;
-    margin-top: 32px;
+    margin-top: 10px;
     margin-left: 100px;
-    width: 330px;
-    height: 32px;
+    width: 300px;
+    height: 100px;
 
 
     font-family: 'Montserrat';
@@ -43,6 +42,10 @@ body {
 .logo_photo {
     width: 100px;
     height: auto;
+}
+
+.logotext {
+    font-weight: bold;
 }
 
 /* TOP SIDE */
@@ -320,7 +323,7 @@ body {
 .bottom_side {
     width: 1200px;
     height: 400px;
-    margin-left: 100px;
+    margin: 0px 350px 50px;
     top: 1650px;
     display: flex;
     flex-direction: column;
