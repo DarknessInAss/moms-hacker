@@ -17,35 +17,27 @@
         <!--White square-->
         <section class="white_square">
     <!--TOP SIDE-->
-        <section>
+        <section class="main_content">
                 <!--X icon-->
-                <div class="close_x">
+                <a class="close_x">
                     <img src="img/heroicons-solid_x.png" alt="no icon X" class="icon_X">
-                </div>
+                </a>
                 <!--middle icon-->
             <section class="top_text">
-                    <div>
                         <img src="img/monitor.png" alt="no middle icon" class="middle_icon">
-                    </div>
                         <h2 class="main_text">Поділися, будь ласка, поштою</h2>
                         <p class="main_text_description">та запишися до "маминого хацкера"</p>
             </section>
                 <!--MIDDLE SIDE-->
-                <ul class="type_boxes">
-                    <li class="nb">
-                        <h4 class="name">Ім'я</h4>
-                        <input type="text" class="name_box">
-                    </li>
-                    <li class="eb">
-                        <h4 class="email">Email</h4>
-                        <input type="text" class="email_box">
-                    </li>
-                </ul>
+                <form class="type_boxes">
+                    <label for="name-name" class="name">Ім'я</label>
+                        <input type="text" class="name_box" id="name-name">
+                    <label for="email-email" class="email">Email</label>
+                        <input type="text" class="email_box" id="email-email">
+                <!--BOTTOM SIDE-->
+                    <button class="button">Стати ним</button>
+                </form>
         </section>
-    <!--BOTTOM SIDE-->
-            <button class="button">
-                <span class="button_name">Стати ним</span>
-            </button>
         </section>
     </section>
 </body>

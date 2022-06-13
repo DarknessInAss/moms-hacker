@@ -8,83 +8,70 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="stylesgoose/styles.css">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="stylesgoose/reset.css">
     <title>thinkwhattodo</title>
 </head>
 <body>
     <!--Main-->
-    <div class="main">
-        <!--TOP side-->
-        <div class="top_side">
+    <main class="main">
             <!--LOGO-->
-                <div>
-                    <img src="img/top side logo.png" alt="no photo logo" class="logo_photo">
-                    <p class="logo_text">
-                       <b> Cамонавчання вдома ІТ-спеціаліста </b>
-                    </p>
-                </div>
+            <div class="header">
+                <img src="img/top side logo.png" alt="no photo logo" class="logo_photo">
+                <p>
+                    <b> Cамонавчання вдома ІТ-спеціаліста </b>
+                </p>
+            </div>
+        <!--TOP side-->
+        <section class="top_side">
             <!--White Square-->
                 <div class="white_square">
                     <h4 class="good_evening">Доброго вечора, ми з України</h4>
                     <h3 class="good_todo">Вчися. Пробуй. Практикуй.</h3>
                     <h1 class="name">Мамин Хакер</h1>
-                    <p class="name_description">Спеціальний бойовий гусак із біолабораторій України. Пишаюся своїми подвигами, бороню Батьківщину та підтримую
-                        позитивний дух народу. Слава Україні!</p>
+                    <p class="name_description"> Мама буде пишатися твоїми подвигами, будеш боронити свій роутер/модем, налаштовувати телефон
+                    своїм рідним і це ще не все.</p>
+                    <!--Orange Button-->
+                    <button class="button">Стати ним</button>
                 </div>
-                <!--Orange Button-->
-                    <div class="button">
-                        <span class="button_name">Стати ним</span>
-                     </div>
-                <!--Goose background-->
-                <div class="goose_background">
-                </div>
-                <!--Goose image-->
-                <div class="main_photo">
-                    <img src="img/Hacker-PNG-Photos-left.png" alt="no photo here">
-                </div>
-        </div>
+                    <!-- PHOTO ZONE -->
+                <section class="photo_zone">
+                    <div class="photo_background"><img class="photo" src="img/Hacker-PNG-Photos-left.png" alt="no photo here"></div>
+                </section>
+        </section>
     <!--Center side-->
+    <section class="center">
         <!--middle icon-->
-    <div>
-        <img src="img/monitor.png" alt="photo_of_monitor" class="middle_icon">
-    </div>
-    <div>
-        <h1 class="interesting_fact_name">Цікаві факти про маминого хакера</h1>
-        <p class="if_description">Зазвичай бандерогуси — виключно мирні птахи. Але у разі небезпеки можуть атакувати ворога системою надпотужного
-            озброєння. Також нищать психологічно,
-            активуючи високочастотне шипіння та розмахування крилами</p>
-    </div>
-    <div>
-        <!--left panel-->
-            <div class="left_panel">
-                <img src="img/icon-hacker-matrix.png" alt="no photo" class="left_panel_photo">
-                <h3 class="left_panel_title">Система навігації</h3>
-                <p class="left_panel_text">Супутниковий GPS та ехолокатори розпізнають ворожу техніку навіть на етапі збірки</p>
-            </div>
+        <div class="center_top">
+            <img src="img/monitor.png" alt="photo_of_monitor" class="middle_icon">
+            <h1 class="interesting_fact_name">Цікаві факти про маминого хакера</h1>
+            <p class="if_description">Зазвичай мамині хацкери — виключно мирні особи. Але у разі небезпеки можуть тримати оборону від DDoS атак або самим "дудосити" когось.</p>
+        </div>
+        <ul class="lishka">
+            <!--left panel-->
+            <li class="left_panel">
+                <img class="left_panel_photo" src="img/icon-hacker-matrix.png" alt="no photo">
+                <h3 class="left_panel_title">Майстер DDoS-у</h3>
+                <p class="left_panel_text">Вивчи основи основ, які допоможуть тобі дудосити когось.</p>
+            </li>
             <!--middle panel-->
-                <div class="middle_panel">
-                    <img src="img/wifi.png" alt="no wifi photo" class="middle_panel_photo">
-                    <h3 class="middle_panel_title">Очі-тепловізори</h3>
-                    <p class="middle_panel_text">Допомагають виявити характер сигнатури об’єктів та значно підвищують точність удару</p>
-                </div>
-                <!--right panel-->
-                    <div class="right_panel">
-                        <img src="img/hackpass.png" alt="" class="right_panel_photo">
-                        <h3 class="right_panel_title">Байракрила</h3>
-                        <p class="right_panel_text">Можуть нести 2-4 керовані ракети,
-                            що вражають ціль на відстані «ніхріна собі» кілометрів</p>
-                    </div>
-    </div>
+            <li class="middle_panel">
+                <img class="middle_panel_photo" src="img/wifi.png" alt="no wifi photo">
+                <h3 class="middle_panel_title">WIFI кряк або захист</h3>
+                <p class="middle_panel_text">Швидко крякаєш закритий вайфай якогось кафе або нелюблячого сусіда</p>
+            </li>
+            <!--right panel-->
+            <li class="right_panel">
+                <img class="right_panel_photo" src="img/hackpass.png" alt="no photo hack">
+                <h3 class="right_panel_title">Інтернет-троль</h3>
+                <p class="right_panel_text">Знаючи як завантажити VPN і створити швидко аккаунт, можеш в безпеці тролити людей без страху чи небезпеки</p>
+                </li>
+    </section>
     <!--Down side-->
-        <div class="bottom_side">
-            <h1 class="bottom_side_text">Перемога завжди за нами !</h1>
-            <p class="bottom_side_description">Головна мета бандерогусей — служити гумору та доброті нашого народу. Ми забезпечимо вашу посмішку у часи,
-                коли вона так необхідна</p>
-        </div>
-        <div>
+        <footer class="bottom_side">
             <img src="img/monitor1.png" alt="photo_of_monitor" class="bottom_middle_icon">
-        </div>
-    </div>
+            <h1 class="bottom_side_text">Мамина радість і щастя!</h1>
+            <p class="bottom_side_description">Головна мета хацкерів — вчасно виправляти те, що наклацала Мама в телефоні. Мамині хацкери завжди на поготові і в разі негайної проблеми можуть вирішити все.</p>
+        </footer>
     </div>
 </body>
 </html>

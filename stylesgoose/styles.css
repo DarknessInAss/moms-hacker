@@ -1,47 +1,33 @@
+html {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
-    background: #ff0000;
-    margin: 0;
+    background: rgba(0, 0, 0, 0.5);
 } 
 
 
 /*main style*/
 
 .main {
-    margin: 0px auto;
     width: 1400px;
     height: 2100px;
-    background: #03eeff;
+    margin: auto;
+    /* background: #03eeff; */
    /* background: linear-gradient(270deg, #000000 0%, #FCFEFF 100%); */
 }
 
 
-/* TOP SIDE */
+/* LOGO */
 
-
-.top_side {
+.header {
     position: absolute;
-    width: 1400px;
-    height: 720px;
-    left: 0px;
-    top: 0px;  /*біла посолка зверху сторінки*/
-    background: linear-gradient(270deg, #000000 0%, #FCFEFF 100%);
-}
+    margin-top: 32px;
+    margin-left: 100px;
+    width: 330px;
+    height: 32px;
 
-
-.logo_photo {
-    position: absolute;
-    width: auto;
-    height: 120px;
-    left: 100px;
-}
-
-.logo_text {
-    position: absolute;
-    width: 200px;
-    height: 30px;
-    left: 215px;
-    top: 20px;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -49,27 +35,44 @@ body {
     font-size: 17px;
     line-height: 20px;
     display: flex;
-    align-items: center;    
+    align-items: center;
     color: #010101;
+
 }
 
-.white_square {
+.logo_photo {
+    width: 100px;
+    height: auto;
+}
 
+/* TOP SIDE */
+
+
+.top_side {
+    width: 100%;
+    height: 720px;
+    margin-bottom: 55px;
+/*біла посолка зверху сторінки*/
+    background: linear-gradient(270deg, #000000 0%, #FCFEFF 100%);
+}
+
+
+.white_square {
     position: absolute;
     height: 500px;
     width: 600px;
-    left: 100px;
-    top: 120px;
+    margin-top: 120px;
+    margin-left: 100px;
     background: #ffffff;
 }
 
 
 .good_evening {
-    position: absolute;
     width: 290px;
     height: 24px;
-    top: 50px;
-    left: 55px;
+    margin-top: 50px;
+    margin-left: 55px;
+    margin-bottom: 16px;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -83,11 +86,10 @@ body {
 }
 
 .good_todo {
-    position: absolute;
     width: 350px;
     height: 24px;
-    top: 100px;
-    left: 55px;
+    margin-left: 55px;
+    margin-bottom: 48px;
 
     font-family: 'Montserrat';
     font-weight: 600;
@@ -98,11 +100,10 @@ body {
 }
 
 .name {
-    position: absolute;
     width: 500px;
     height: 75px;
-    top: 150px;
-    left: 55px;
+    margin-left: 55px;
+    margin-bottom: 24px;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -116,11 +117,10 @@ body {
 }
 
 .name_description {
-    position: absolute;
     width: 500px;
     height: 100px;
-    top: 270px;
-    left: 55px;
+    margin-left: 55px;
+    margin-bottom: 30px;
     
     font-family: 'Montserrat';
     font-style: normal;
@@ -131,23 +131,15 @@ body {
     }
 
 .button {
-    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
     width: 200px;
     height: 50px;
-    top: 540px;
-    left: 200px;
-
-    background: #ff6b0a;
-    border-radius: 8px;
-}
-
-
-.button_name {
-    position: absolute;
-    width: 200px;
-    height: 15px;
-    top: 12px;
-    left: 30px;
+    margin-left: 56px;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -155,23 +147,28 @@ body {
     font-size: 25px;
     line-height: 24px;
     color: #FFFFFF;
+
+    background: #ff6b0a;
+    border-radius: 8px;
+    border-color: #ff6b0a;
 }
 
+/* PHOTO ZONE */
 
-.main_photo {
-    position: absolute;
-    top: px;
-    left: 800px;
-}
-
-
-
-.goose_background {
-    position: absolute;
-    width: 600.25px;
+.photo_zone {
     height: 670px;
-    left: 760px;
-    top: 15px;
+    padding-top: 25px;
+    margin-left: 760px;
+}
+
+.photo {
+    transform: rotate(176.81deg);
+}
+
+.photo_background {
+    padding-top: 30px;
+    width: 600px;
+    height: 650px;
     
     background: #b1ff4a42;
     border-radius: 150px;
@@ -181,21 +178,27 @@ body {
 
 /* Center SIDE */
 
+
+.center {
+    width: 1200px;
+    height: 850px;
+    margin: 0px 100px 30px;
+}
+
+.center_top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .middle_icon {
-    position: absolute;
-    width: 100px;
+    width: 70px;
     height: auto;
-    top: 780px;
-    left: 660px;
 }
 
 .interesting_fact_name {
-    position: absolute;
-    width: 900px;
-    height: 100px;
-    top: 840px;
-    left: 276px;
-
+    text-align: center;
+    margin-bottom: 16px;
     font-family: 'Montserrat';
     font-style: bold;
     font-weight: 600;
@@ -205,11 +208,8 @@ body {
 }
 
 .if_description {
-    position: absolute;
-    width: 950px;
-    height: 75px;
-    top: 950px;
-    left: 250px;
+    margin-bottom: 24px;
+    text-align: center;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -223,29 +223,47 @@ body {
 
 /*central panels*/
 
+.lishka {
+    height: 550px;
+    /* display: flex; */
+    /* display: block;
+    flex-direction: column;
+    justify-content: space-between; */
+}
 
-.left_panel {
-    position: absolute;
+.left_panel,
+.middle_panel,
+.right_panel {
+    /* position: absolute; */
     width: 380px;
     height: 550px;
-    top: 1050px;
-    left: 100px;
+    display: inline-block;
+    text-align: center;
+    /* flex-direction: column;
+    align-items: center; */
 }
 
-.left_panel_photo {
-    position: absolute;
+.left_panel_photo,
+.middle_panel_photo,
+.right_panel_photo {
+    width: 300px;
+    height: auto;
+    margin-bottom: 12px;
+}
+
+.right_panel_photo {
     width: 350px;
     height: 350px;
-
 }
 
-.left_panel_title {
-    position: absolute;
-    width: 300px;
+.left_panel_title,
+.middle_panel_title,
+.right_panel_title {
+    width: 380px;
     height: 24px;
-    top: 350px;
-    left: 50px;
+    margin-bottom: 32px;
 
+    text-align: center;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -253,16 +271,17 @@ body {
     font-size: 24px;
     line-height: 24px;
     color: black;
-
 }
 
 
-.left_panel_text {
-    position: absolute;
-    width: 350px;
+.left_panel_text,
+.middle_panel_text,
+.right_panel_text {
+    width: 375px;
     height: 24px;
-    top: 400px;
-    left: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -271,9 +290,13 @@ body {
     line-height: 24px;
 }
 
+.middle_panel,
+.right_panel {
+    margin-left: 24px;
+}
 
 
-.middle_panel {
+/* .middle_panel {
     position: absolute;
     width: 380px;
     height: 550px;
@@ -283,51 +306,6 @@ body {
 }
 
 
-
-
-
-.middle_panel_photo {
-    position: absolute;
-    width: 350px;
-    height: 350px;
-
-}
-
-.middle_panel_title {
-    position: absolute;
-    width: 300px;
-    height: 24px;
-    top: 350px;
-    left: 50px;
-    
-    
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 24px;
-    color: black;
-
-}
-
-
-.middle_panel_text {
-    position: absolute;
-    width: 350px;
-    height: 24px;
-    top: 400px;
-    left: 50px;
-    
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-
-}
-
-
-
 .right_panel {
     position: absolute;
     width: 380px;
@@ -335,52 +313,20 @@ body {
     top: 1050px;
     left: 900px;
 
-}
+} */
 
-.right_panel_photo {
-    position: absolute;
-    width: 350px;
-    height: 350px;
-
-}
-.right_panel_title {
-    position: absolute;
-    width: 300px;
-    height: 24px;
-    top: 350px;
-    left: 50px;
-    
-    
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 24px;
-    color: black;
-
-}
-
-.right_panel_text {
-    position: absolute;
-    width: 350px;
-    height: 24px;
-    top: 400px;
-    left: 50px;
-    
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-}
 
 
 .bottom_side {
-    position: absolute;
     width: 1200px;
     height: 400px;
-    left: 100px;
+    margin-left: 100px;
     top: 1650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     /*біла посолка зверху сторінки*/
     background: linear-gradient(270deg, #000000 0%, #FCFEFF 100%);
 
@@ -389,15 +335,13 @@ body {
 
 
 .bottom_middle_icon {
-    position: absolute;
-    width: 100px;
+    width: 70px;
     height: auto;
-    top: 1700px;
-    left: 650px;
+
 }
 
 .bottom_side_text {
-    position: absolute;
+
     width: 800px;
     height: 100px;
     left: 250px;
@@ -413,7 +357,7 @@ body {
 }
 
 .bottom_side_description {
-    position: absolute;
+
     width: 900px;
     height: 50px;
     left: 150px;
